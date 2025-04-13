@@ -11,6 +11,7 @@ vim.keymap.set('n', '<leader>wj', function() vim.cmd.wincmd('j') end)
 vim.keymap.set('n', '<leader>wk', function() vim.cmd.wincmd('k') end)
 vim.keymap.set('n', '<leader>wh', function() vim.cmd.wincmd('h') end)
 vim.keymap.set('n', '<leader>wl', function() vim.cmd.wincmd('l') end)
+vim.keymap.set('n', '<leader>e', function() vim.diagnostic.open_float() end)
 
 vim.keymap.set('i', 'jj', '<Esc>')
 
